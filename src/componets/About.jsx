@@ -2,8 +2,8 @@ import React from "react";
 
 function About() {
   return (
-    <section id="about" className="md:h-auto h-auto w-full flex items-center justify-center">
-      <div className="flex flex-col items-center md:py-24 py-6 px-6 md:px-8 lg:px-24">
+    <section id="about" className="md:h-screen h-auto w-full flex items-center justify-center ">
+      <div className="flex flex-col items-center md:py-20 py-6 px-6 md:px-8 lg:px-24">
         <div className="text-center italic text-xl mb-8">
           <h3 className="text-2xl font-mono font-semibold">--- About ---</h3>
         </div>

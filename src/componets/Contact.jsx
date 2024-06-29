@@ -2,15 +2,15 @@ import React from "react";
 
 function Contact() {
   return (
-    <section id="contact" className="h-auto w-full">
-      <div className="py-24 px-8 flex flex-col justify-center">
-        <div className="text-center mt-5">
+    <section id="contact" className="h-auto md:h-screen w-full flex justify-center">
+      <div className="lg:py-24 py-12 mt-5 px-8 flex flex-col justify-center">
+        <div className="text-center">
           <h3 className="text-2xl italic font-mono font-semibold">
             --- Contact ---
           </h3>
         </div>
         <div className="text-center mt-14">
-          <p className="text-white text-2xl font-mono font-extralight">
+          <p className="text-white text-xl md:text-2xl font-mono font-extralight">
             Hey...Wanna Talk? Please drop a message...!!
           </p>
         </div>
